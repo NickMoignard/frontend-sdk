@@ -38,8 +38,18 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {},
-      "peerDependencies": {}
-    }
+      "peerDependencies": {
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+      }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true,
+    "installFromBitDevRegistry": true,
+    "savePrefix": ""
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your

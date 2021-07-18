@@ -1,0 +1,77 @@
+dependencies:
+  react: registry.npmjs.org/react/17.0.2
+  react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
+lockfileVersion: 5.2
+packages:
+  registry.npmjs.org/js-tokens/4.0.0:
+    dev: false
+    name: js-tokens
+    resolution:
+      integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz
+    version: 4.0.0
+  registry.npmjs.org/loose-envify/1.4.0:
+    dependencies:
+      js-tokens: registry.npmjs.org/js-tokens/4.0.0
+    dev: false
+    hasBin: true
+    name: loose-envify
+    resolution:
+      integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+    version: 1.4.0
+  registry.npmjs.org/object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: object-assign
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz
+    version: 4.1.1
+  registry.npmjs.org/react-dom/17.0.2_react@17.0.2:
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      react: registry.npmjs.org/react/17.0.2
+      scheduler: registry.npmjs.org/scheduler/0.20.2
+    dev: false
+    id: registry.npmjs.org/react-dom/17.0.2
+    name: react-dom
+    peerDependencies:
+      react: 17.0.2
+    resolution:
+      integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz
+    version: 17.0.2
+  registry.npmjs.org/react/17.0.2:
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    name: react
+    resolution:
+      integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/react/-/react-17.0.2.tgz
+    version: 17.0.2
+  registry.npmjs.org/scheduler/0.20.2:
+    dependencies:
+      loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+    dev: false
+    name: scheduler
+    resolution:
+      integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz
+    version: 0.20.2
+specifiers:
+  react: 17.0.2
+  react-dom: 17.0.2
